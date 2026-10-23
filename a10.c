@@ -12,7 +12,7 @@ int main(void){
     scanf("%f", &p);
     printf("cual es el peso en KG de uva: \n");
     scanf("%f", &k);
-    printf("seleccione el tipo de uva [1]A, [2]B \n");
+    printf("seleccione el tipo de uva [1]Roja, [2]Verde \n");
     scanf("%d", &c);
     printf("cual es el tamaño de la uva[1],[2]\n");
     scanf("%d", &t);
