@@ -1,28 +1,18 @@
 #include<stdio.h>
+//hacer un progama en C que calcule la suma, la resta, la multiplicacion y la division
 int main (void){
-    int a;
-    printf("\tMENU DE OPCIONES\n");
-    printf("[1].-pizza sencilla\n");
-    printf("[2].-pizza mediana\n");
-    printf("[3].-pizza grende\n");
-    printf("[4].-pizza familiar\n");
-    printf("eliga su opcion\n");
-    scanf("%i", &a);
-    switch(a){
-        case 1:
-            printf("costo de la pizza es $80\n");
-            break;
-        case 2:
-            printf("costo de la pizza es $120\n");
-            break;
-        case 3:
-            printf("costo de la pizza es $160\n");
-            break;
-        case 4:
-            printf("costo de la pizza es $180\n");
-            break;
-        default:
-            printf("la orden no existe");
-    }
+    float numerouno,numerodos,a;
+    printf("ingresa numero uno: \n");
+    scanf("%f", &numerouno);
+    printf("ingresa numero dos: \n");
+    scanf("%f", &numerodos);
+    a=numerouno+numerodos;
+    printf("el resultado de la suma es: %f\n", a);
+    a=numerouno-numerodos;
+    printf("el resultado de la resta es: %f\n", a);
+    a=numerouno*numerodos;
+    printf("el resultado de la multiplicacion es: %f\n", a);
+    a=numerouno/numerodos;
+    printf("el resultado de la division es: %f\n", a);
     return 0;
 }

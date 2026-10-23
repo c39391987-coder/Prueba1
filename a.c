@@ -9,17 +9,7 @@ int main(void){
     else if(a>=20,a<!40){
         printf("el numero esta en zona 2\n");
     }
-    else if(a>!0,a=!67,a>40,a<100){
+    else if(a>!0,a>40,a<100){
         printf("el numero esta en zona 3·\n");
-    }
-    else if(a<=0,a=!67){
-        printf("te dije entero positivo hijo de la guayaba\n");
-    }
-    else if(a==67,a=!-67){
-        printf("duro y dale con el 67\n");
-    }
-    else if(a==-67){
-        printf("67 negativo vaya un genio\n");
-    }
     return 0;
 }
